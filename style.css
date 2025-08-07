@@ -1,0 +1,70 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  background: hsl(0, 0%, 12%);
+  padding: 40px;
+  border-radius: 8px;
+  width: 400px;
+  width: 100%;
+}
+
+.avatar {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.name {
+  padding: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.address {
+  color: hsl(75, 94%, 57%);
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.discription {
+  padding: 20px 12px;
+  font-size: 0.9rem;
+}
+
+.btn {
+  font-size: 16px;
+  background: hsl(0, 0%, 20%);
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+
+.btn:active {
+  background-color: hsl(97, 94%, 57%);
+}
